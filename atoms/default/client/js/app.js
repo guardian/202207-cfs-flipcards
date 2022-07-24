@@ -163,7 +163,7 @@ const Main = () => {
     dispatch = useDispatch();
 
     useEffect(()=>{
-        dispatch( fetchData('https://interactive.guim.co.uk/docsdata/1RlfJnyzwn2qJGZUXXo7zxqTUhLpWKsN7myuqirR5BLA.json') );
+        dispatch( fetchData('https://interactive.guim.co.uk/docsdata/1C4raLV4Gsg80p_VbNnyyWAdPYZiCo1926k4NDf41BaE.json') );
     },[]);
 
 

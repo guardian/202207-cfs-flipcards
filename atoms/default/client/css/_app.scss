@@ -67,12 +67,14 @@ h1, h2 {
   font-size: 36/16 + rem;
   // text-decoration: underline;
   // text-transform: uppercase;
-  font-family: "Guardian Egyptian Web", "Display Sans", serif;
+  // font-family: "Guardian Egyptian Web", "Display Sans", serif;
+  font-family: "Display Sans", serif;
   
   
   span {
     font-weight: 400;
-    font-family: "Guardian Egyptian Web", "Display Sans", serif;
+    // font-family: "Guardian Egyptian Web", "Display Sans", serif;
+    font-family: "Display Sans", serif;
   }
   @include mq(tablet) {
     font-size: 64/16 + rem;
@@ -129,10 +131,10 @@ p {
 }
 
 #Glabs {
-  background-color: #57534C;
+  background-color: #E2E2E2;
   
   &, .content {
-    color: #F9F2DD;
+    color: #151A35;
   }
 
   // .content {
