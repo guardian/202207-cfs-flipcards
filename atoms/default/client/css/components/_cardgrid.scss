@@ -93,7 +93,7 @@
       perspective: 1500px;
       margin: auto;
       height: 500px;
-      width: 340px;
+      width: 320px;
 
       // border-radius: 15px;
       --cardbg: white;
@@ -301,14 +301,14 @@
             font-style: italic;
           }
           .content-wrap {
-            padding: 2.5rem 1rem;
+            padding: 0 1rem;
             background-color: #f3f3f3;
             height: 100%;
             display: flex;
             align-items: center;
 
             @include mq(tablet) {
-              padding: 2.5rem 2rem;
+              padding: 2rem;
             }
 
             p:first-child {
